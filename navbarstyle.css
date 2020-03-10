@@ -4,8 +4,8 @@ ul.nav {
     margin: 0;
     padding:0;
     overflow: hidden;
-    background-color: aqua  ;
-    position: absolute;
+    background-color: aqua ;
+    position: relative;
     bottom: 0px;
     width: 100%;
 }
