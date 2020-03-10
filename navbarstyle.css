@@ -5,7 +5,8 @@ ul.nav {
     padding:0;
     overflow: hidden;
     background-color: aqua  ;
-    position: sticky;
+    position: absolute;
+    bottom: 0px;
     width: 100%;
 }
 ul.nav li a {
