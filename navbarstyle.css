@@ -1,0 +1,37 @@
+
+ul.nav {
+    list-style-type: none; /*removes dots. */
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+    background-color: aqua  ;
+    position: sticky;
+    width: 100%;
+}
+ul.nav li a {
+    color: black;
+    text-decoration: none;
+  }
+
+  li{
+    float: left;
+}
+li a{
+    display:block;
+    padding: 14px 16px;
+    text-align: center;
+}
+
+li a:hover:not(.active){
+    background-color: gold;
+}
+
+.active{
+    background-color: gold;
+} 
+
+@media screen and (max-width: 600px){
+    ul.nav li.right,
+    ul.nav li {float: none;}
+}
+
