@@ -23,7 +23,8 @@ p{
 
 .text-container {
     background-color: rgb(230, 222, 214);
-    background-color: #D2CBC9;
+    /* background-color: #D2CBC9; */
+    background-color: rgb(230, 222, 214);
 }
 
 h1 {
