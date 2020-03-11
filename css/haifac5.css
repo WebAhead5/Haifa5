@@ -31,14 +31,59 @@ h2{
     
 }
 
-.hero-inner{
+section.hero{
     background-image: url(/home/morad/Haifa5/allimg.jpeg);
     margin: auto;
     background-size: cover;
     height: 500px;
-    width: auto;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    
+    
 }
 
 div.hero{
     width: 100%;
+    box-sizing: border-box;
+}
+
+.abouth1{
+    background-color: transparent;
+    color: #000;
+    text-shadow: 0.5px 1px yellowgreen;
+    
+}
+
+.abouth2{
+    color: white;
+    /* filter: blur(3px) */
+    position: abs;
+    display: flexs;
+}
+
+.contactbutton{
+    position: absolute;
+    color: gold;
+    
+}
+
+.blurcontainer{
+    border-color: transparent;
+    padding-top: 120px;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    height: 22%;
+}
+
+@media screen and (max-width: 600px){
+    .hero-inner {
+        background-position: center;
+        width: auto;   
+        position: absolute;
+        text-align: center;
+    }
 }
