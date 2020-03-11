@@ -1,9 +1,10 @@
 .contactform{
     background-color: whitesmoke;
     color:black;
-    margin-right:30px;
-    text-align: left;
+}
 
+section.contactform{
+    margin-bottom: 500px;
 }
 textarea {
         resize:none;
