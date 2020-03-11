@@ -1,13 +1,15 @@
 h1{
     color:whitesmoke;
-    background-color:  #00ccff
-    ;
+    background-color:  #00ccff;
+    margin-top: 0;
 
 }
 body{
     background-color: whitesmoke;
     font-family:'Work Sans' 
     ;font-size:22px;
+    padding: 0;
+    margin: 0;
 }
 p{
     color:black;
@@ -22,6 +24,7 @@ h2{
     color:black;
 
 }
+
 
 .titlestyle{
 
@@ -39,8 +42,8 @@ section.hero{
     width: 100%;
     text-align: center;
     position: relative;
-    
-    
+    justify-content: center;
+    top: 0;
 }
 
 div.hero{
@@ -48,11 +51,12 @@ div.hero{
     box-sizing: border-box;
 }
 
-.abouth1{
+h1.abouth1{
     background-color: transparent;
     color: #000;
     text-shadow: 0.5px 1px yellowgreen;
-    
+    padding-top: 20px;
+    size: 25px;
 }
 
 .abouth2{
@@ -63,9 +67,8 @@ div.hero{
 }
 
 .contactbutton{
-    position: absolute;
+    position: relative;
     color: gold;
-    
 }
 
 .blurcontainer{
@@ -73,6 +76,7 @@ div.hero{
     padding-top: 120px;
     justify-content: center;
     backdrop-filter: blur(10px);
+    
     bottom: 0;
     position: absolute;
     width: 100%;
@@ -80,10 +84,20 @@ div.hero{
 }
 
 @media screen and (max-width: 600px){
-    .hero-inner {
+    section.hero{
+        background-size: cover;
         background-position: center;
-        width: auto;   
-        position: absolute;
+        width: 100%;
+        margin: auto;   
+        position: relative;
         text-align: center;
     }
+    .contactbutton{
+        position: relative;
+        align-content: center;
+    }
+     h1.abouth1{
+         font-size: 30px;
+
+     }
 }
