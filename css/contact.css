@@ -1,7 +1,8 @@
 .contactform{
     background-color: whitesmoke;
     color:black;
-    
+    margin-right:30px;
+    text-align: left;
 
 }
 textarea {
@@ -9,6 +10,8 @@ textarea {
         width: 600px;
         height: 150px;
         background-color: whitesmoke;
+        margin-right:30%;
+
 
     }
 #sub {
@@ -19,4 +22,10 @@ textarea {
 
 .inputbox{
     width: 350px;
+    margin-right:80%;
+
+}
+#labels{
+
+ margin-right:80%;
 }
