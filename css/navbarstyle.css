@@ -4,13 +4,8 @@ ul.nav {
     margin: 0;
     padding:0;
     overflow: hidden;
-<<<<<<< HEAD:navbarstyle.css
-    background-color: aqua ;
-    position: relative;
-=======
     background-color: aqua  ;
     position: fixed;
->>>>>>> 92029567ab2a75c0231e85c711e5d0c52653b07b:css/navbarstyle.css
     bottom: 0px;
     width: 100%;
 }
