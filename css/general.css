@@ -1,3 +1,35 @@
 body {  
     text-align: center;
+    background-color: whitesmoke;
+    font-family:'Work Sans' 
+    ;font-size:22px;
+    padding: 0;
+    margin: 0;
+    color: black;
+    margin-bottom: 100px;
+}
+
+section {
+    background-color: #D2CBC9;
+    /* background-color: blue; */
+}
+
+
+p{
+    color:black;
+    text-align: center;
+}
+
+
+.text-container {
+    background-color: rgb(230, 222, 214);
+    background-color: #D2CBC9;
+}
+
+h1 {
+    margin-top: 30px;
+}
+
+h2 {
+    margin-top: 60px;
 }
