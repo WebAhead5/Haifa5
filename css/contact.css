@@ -1,0 +1,18 @@
+.contactform{
+    background-color: whitesmoke;
+    color:black;
+    
+
+}
+textarea {
+        resize:none;
+        width: 600px;
+        height: 150px;
+        background-color: whitesmoke;
+
+    }
+#sub {
+        width: 10em;  height: 3em;
+        font-size:30px;
+
+    }

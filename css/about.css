@@ -1,0 +1,23 @@
+
+h1.abouth1{
+    /* background-color: transparent;
+    color: #000;
+    text-shadow: 0.5px 1px yellowgreen; */
+    padding-top: 20px;
+    font-size: 45px;
+    margin-top: 0;
+}
+
+h2.abouth2{
+    color: black;
+    /* bottom: 50%; */
+    text-align: center;
+    /* border: 5px solid red; */
+
+}
+
+@media screen and (max-width: 600px){
+     h1.abouth1{
+         font-size: 30px;
+     }
+}
