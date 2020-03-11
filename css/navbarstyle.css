@@ -40,9 +40,16 @@ li a:hover:not(.active){
 } 
 
 @media screen and (max-width: 600px){
+   ul.nav li.left,
+    ul.nav {
+        float: none;
+        bottom: 0;
+        top: unset;
+    }
     ul.nav li.right,
-    ul.nav li {float: none;}
+    ul.nav li {float: none;
 
     margin-bottom: 40px;
+}
 }
 

@@ -11,6 +11,8 @@ textarea {
         background-color: whitesmoke;
 
     }
-    input[type=submit] {
-        width: 20em;  height: 2em;
+#sub {
+        width: 10em;  height: 3em;
+        font-size:30px;
+
     }
