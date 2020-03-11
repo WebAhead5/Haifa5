@@ -2,10 +2,18 @@
 ul.nav {
     list-style-type: none; /*removes dots. */
     margin: 0;
-    padding:0;
-    overflow: hidden;
+padding:0;
     background-color: aqua  ;
+    overflow:hidden;
+    background: none;
     position: fixed;
+    top:0px;
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 18px 16px;
+        text-decoration: none;
+        font-size: 17px;
     bottom: 0px;
     width: 100%;
 }
@@ -15,7 +23,7 @@ ul.nav li a {
   }
 
   li{
-    float: left;
+    float: right;
 }
 li a{
     display:block;
@@ -32,9 +40,16 @@ li a:hover:not(.active){
 } 
 
 @media screen and (max-width: 600px){
+   ul.nav li.left,
+    ul.nav {
+        float: none;
+        bottom: 0;
+        top: unset;
+    }
     ul.nav li.right,
-    ul.nav li {float: none;}
+    ul.nav li {float: none;
 
     margin-bottom: 40px;
+}
 }
 
