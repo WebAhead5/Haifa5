@@ -39,10 +39,15 @@ li a{
 
 li a:hover:not(.active){
     background-color: gold;
+    background-color: hsl(205, 16%, 70%);
+    background-color: hsl(205, 8%, 89%);
+    background-color: hsla(205, 8%, 89%, 50%);
+    background-color: hsla(205, 16%, 70%, 50%);
 }
 
 .active{
     background-color: gold;
+
 } 
 
 @media only screen and (min-width: 1150px){

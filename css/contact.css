@@ -1,8 +1,10 @@
 .contactform{
     background-color: whitesmoke;
     color:black;
-    
+}
 
+section.contactform{
+    margin-bottom: 500px;
 }
 textarea {
         resize:none;
