@@ -1,6 +1,6 @@
 h1{
-    color:whitesmoke;
-    background-color:  #00ccff;
+    /* color:whitesmoke;
+    background-color:  #00ccff; */
     margin-top: 0;
 
 }
@@ -10,17 +10,17 @@ body{
     ;font-size:22px;
     padding: 0;
     margin: 0;
+    color: black;
+    margin-bottom: 100px;
 }
 p{
     color:black;
     text-align: center;
 }
 
-
 .contactform{
     background-color: whitesmoke;
     color:black;
-
 }
 
 section.hero{
@@ -42,35 +42,45 @@ div.hero{
 }
 
 h1.abouth1{
-    background-color: transparent;
+    /* background-color: transparent;
     color: #000;
-    text-shadow: 0.5px 1px yellowgreen;
+    text-shadow: 0.5px 1px yellowgreen; */
     padding-top: 20px;
     size: 25px;
 }
 
-.abouth2{
-    color: white;
-    bottom: 20px;
-    text-align: center;
-}
-
-.contactbutton{
-    position: relative;
-    color: gold;
-}
-
-.blurcontainer{
+div.blurcontainer{
     border-color: transparent;
-    padding-top: 120px;
+    /* padding-top: 120px; */
     justify-content: center;
     backdrop-filter: blur(10px);
     
     bottom: 0;
     position: absolute;
     width: 100%;
-    height: 22%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
 }
+
+
+h2.abouth2{
+    color: black;
+    /* bottom: 50%; */
+    text-align: center;
+    /* border: 5px solid red; */
+
+}
+
+a.contactbutton{
+    color: black;
+    align-content: center;
+    /* border: 5px solid blue; */
+
+}
+
 
 @media screen and (max-width: 600px){
     section.hero{
