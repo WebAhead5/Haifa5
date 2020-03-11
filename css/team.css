@@ -62,9 +62,12 @@
 	figure {
 		display: flex;
 		flex-wrap: wrap;
-		background-color: DodgerBlue;
-		justify-content: space-around;
+		justify-content:space-around;
+	}
 
+	div.team {
+		background-color: DodgerBlue;
+		/* border-radius: 5px; */
 	}
 
 	#slider > div {
@@ -79,6 +82,9 @@
 	div.member {
 		width: 20%;
 		text-align: center;
+		background-color: aqua;
+		margin: 5px;
+		border-radius: 5px;
 	}
 
 	img {
@@ -86,7 +92,7 @@
 		height: 210px;
 		object-fit: cover;
 		border-radius: 50%;
-		margin: 10px;
+		margin: 5px;
 	}
 
 }
