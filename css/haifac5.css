@@ -17,16 +17,22 @@ h2{
     color:black;
 }
 
-.contactform{
-    background-color: whitesmoke;
-    color:black;
-
-}
-
 .titlestyle{
 
 }
 
 .formstyle{
     
+}
+
+.hero-inner{
+    background-image: url(/home/morad/Haifa5/allimg.jpeg);
+    margin: auto;
+    background-size: cover;
+    height: 500px;
+    width: auto;
+}
+
+div.hero{
+    width: 100%;
 }
