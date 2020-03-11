@@ -6,7 +6,7 @@ Our team is composed of professional well experienced members that got more than
 
 
 #what
-According to our approach, the best way to achieve a desired goal, is communication.
+According to our approach, the best way to ach  ieve a desired goal, is communication.
 Leaded by our vision and approaches, and in order to fully understand your requirements and needs, please fill up the contact form down in the site and we will contact you ASAP 
 
 #how 
