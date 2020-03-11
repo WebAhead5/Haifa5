@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/navbarstyle.css">
     <link rel="stylesheet" href="css/team.css">
     <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="contact.css">
     <link href='https://fonts.googleapis.com/css?family=Work Sans' rel='stylesheet'>
 
 </head>
@@ -67,14 +68,26 @@
         </form>
     </div>
 
+            <div class="contactcontainer">
+                <h2>Drop us a message!</h2>
+                <form action="/action_page.php" method="get">
+                <label for="fname" class="labels">Full name: </label><br>
+                <input type="text" id="fname" name="fname" class=" rounded"><br>
+                <label for="email" class="labels">Email:  </label><br>
+                <input type="text" id="email" name="email" class=" rounded"><br>
+                <label for="Subject" class="labels">Subject:  </label><br>
+                <input type="text" id="Subject" name="Subject" class="rounded"><br>
+                <label for="message" class="labels">Message: <br></label>
+                <input type="text" id="message" name="message" class="messagecontainer"><br>
+                <br><input type="button" value="Submit" class="submitbutton">
+                </form>
+            </div>
     <ul class="nav">
         <li><a href="#about">About</a> </li>
         <li><a href="#team">Team</a> </li>
         <li><a href="#contact">Contact </a> </li>
 
     </ul>
-
-
 </body>
 
 </html>
