@@ -8,6 +8,7 @@ body {
     color: black;
     margin-bottom: 100px;
     margin-top: 57px;
+    scroll-behavior: smooth;
 }
 
 section {
