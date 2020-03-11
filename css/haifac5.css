@@ -24,10 +24,11 @@ p{
 }
 
 section.hero{
-    background-image: url(https://github.com/WebAhead5/Haifa5/blob/master/allimg.jpeg?raw=true);
+    background-image: url(https://github.com/WebAhead5/Haifa5/blob/master/img/allimg.jpeg?raw=true);
     margin: auto;
     background-size: cover;
-    height: 500px;
+    background-position: center;
+    height: 800px;
     width: 100%;
     text-align: center;
     position: relative;
@@ -50,9 +51,8 @@ h1.abouth1{
 
 .abouth2{
     color: white;
-    /* filter: blur(3px) */
-    position: absolute;
     bottom: 20px;
+    text-align: center;
 }
 
 .contactbutton{
