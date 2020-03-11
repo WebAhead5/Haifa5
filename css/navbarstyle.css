@@ -2,29 +2,26 @@
 ul.nav {
     list-style-type: none; /*removes dots. */
     margin: 0;
-<<<<<<< HEAD
     padding:0;
-    overflow: hidden;
-    background-color: transparent;
-    backdrop-filter: blur(50px);
-    text-shadow: 3px 3px grey;
-=======
-padding:0;
-    background-color: aqua  ;
+
     overflow:hidden;
-    background: none;
->>>>>>> ad0cf71d922e2ceb59a217ac1d1531f04e44eb34
     position: fixed;
-    top:0px;
-        float: left;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 18px 16px;
-        text-decoration: none;
-        font-size: 17px;
-    bottom: 0px;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold ;
+
     width: 100%;
-    border-top: 2px solid black;
+
+
+    box-sizing: border-box;
+
+    backdrop-filter: blur(10px);
+
+    /* background: none; */
+
 }
 ul.nav li a {
     color: black;
@@ -48,19 +45,19 @@ li a:hover:not(.active){
     background-color: gold;
 } 
 
-@media screen and (max-width: 600px){
-    ul.nav li.right,
-    ul.nav li {float: none;
-    display: flex;
-    margin-bottom: 40px;
-    }
-   ul.nav li.left,
+@media only screen and (min-width: 1150px){
+
     ul.nav {
-        float: none;
-        bottom: 0;
-        top: unset;
+        top: 0;
+
     }
-   
 
 }
 
+@media only screen and (max-width: 1150px){
+    ul.nav {
+        bottom: 0;
+
+        border-top: 2px solid black;
+    }
+   }
