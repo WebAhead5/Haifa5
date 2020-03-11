@@ -16,6 +16,7 @@ padding:0;
         font-size: 17px;
     bottom: 0px;
     width: 100%;
+    border-top: 2px solid black;
 }
 ul.nav li a {
     color: black;
@@ -40,6 +41,11 @@ li a:hover:not(.active){
 } 
 
 @media screen and (max-width: 600px){
+    ul.nav li.right,
+    ul.nav li {float: none;
+    display: flex;
+    margin-bottom: 40px;
+    }
    ul.nav li.left,
     ul.nav {
         float: none;

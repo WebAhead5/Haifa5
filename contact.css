@@ -1,0 +1,22 @@
+div.contactcontainer{
+    position: relative;
+    margin-right: 65%;
+}
+
+.rounded {
+    border-radius: 40%;
+    height: 20px;
+    width: 300px;
+    border-color: grey;
+    background-color: whitesmoke;
+}
+
+.labels{
+    
+}
+
+.messagecontainer {
+    background-color: whitesmoke;
+    height: 200px;
+    width: 400px;
+}
