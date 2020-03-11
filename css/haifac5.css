@@ -62,8 +62,8 @@ h1.abouth1{
 .abouth2{
     color: white;
     /* filter: blur(3px) */
-    position: abs;
-    display: flexs;
+    position: absolute;
+    bottom: 20px;
 }
 
 .contactbutton{
@@ -87,10 +87,12 @@ h1.abouth1{
     section.hero{
         background-size: cover;
         background-position: center;
+        background-repeat: no-repeat;
         width: 100%;
         margin: auto;   
         position: relative;
         text-align: center;
+        height: 450px;
     }
     .contactbutton{
         position: relative;
@@ -100,4 +102,5 @@ h1.abouth1{
          font-size: 30px;
 
      }
+
 }
