@@ -23,11 +23,8 @@ V. CSS.
 
 ## :floppy_disk: How to install the project 
 
-1. `git clone git@github.com:FAC-Sixteen/week-3-agony-yaunt.git`
-2. cd into the directory
-3. run `npm i` to install node modules
-4. `npm test` can be run for the (minimal) tests
-5. open the local index.html file
+1. `git clone https://github.com/WebAhead5/Haifa5.git`
+2.  `code .
 
 ---
 ---
