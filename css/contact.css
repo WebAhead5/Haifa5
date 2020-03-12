@@ -25,6 +25,7 @@ textarea {
 .inputbox{
     width: 100%;
     margin-right:80%;
+    text-align:left;
 
 }
 #labels{
