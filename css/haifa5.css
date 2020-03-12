@@ -39,6 +39,9 @@ div.blurcontainer{
 
 }
 
+
+
+
 a.contactbutton{
     color: black;
     align-content: center;
@@ -46,3 +49,20 @@ a.contactbutton{
 
 }
 
+
+@media screen and (max-width: 600px){
+    section.hero{
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        margin: auto;   
+        position: relative;
+        text-align: center;
+        height: 450px;
+    }
+    .contactbutton{
+        position: relative;
+        align-content: center;
+    }
+}

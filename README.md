@@ -1,6 +1,5 @@
 # Haifa5
-## why
-
+## why 
 Haifa5 have built a website that would serve our clients that interested in building professional website using HTML & CSS. 
 
 Our team is composed of professional well experienced members that got more than 20 years in the industry. 
@@ -19,3 +18,21 @@ II. Deciding what sections the website should contain.
 III. Creating the HTML page and declaring the sections.
 IV. Creating and inserting the content to the website
 V. CSS.
+
+---
+
+## :floppy_disk: How to install the project 
+
+1. `git clone https://github.com/WebAhead5/Haifa5.git`
+2.  `code .
+
+---
+---
+
+## :bulb: What we learned 
+![](https://media.giphy.com/media/3ohuAxV0DfcLTxVh6w/giphy.gif)
+- we learned how to steal readme files .
+- ![](https://i.imgur.com/iAk8Pw3.gif)
+<!-- - Joko is ALWAYS right. -->
+
+---
