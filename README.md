@@ -24,7 +24,7 @@ V. CSS.
 ## :floppy_disk: How to install the project 
 
 1. `git clone https://github.com/WebAhead5/Haifa5.git`
-2.  `code .
+2.  code .
 
 ---
 ---
