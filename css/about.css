@@ -6,6 +6,8 @@ h1.abouth1{
 h2.abouth2{
     color: black;
     text-align: center;
+    padding-top: 0;
+    margin: 0 20px; 
 }
 
 .about p{

@@ -3,6 +3,8 @@
 	margin: 10px;
 }
 
+
+
 @media only screen and (max-width: 1200px) {
 	#slider {
 		overflow: hidden;
@@ -35,6 +37,10 @@
 		display: flex;
 		flex-wrap: wrap;
 		justify-content:space-around;
+	}
+
+	div.member {
+		box-shadow: 0 4px 6px rgba(50,50,93,.11);
 	}
 
 	#slider > div {

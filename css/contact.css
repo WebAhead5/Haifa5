@@ -2,6 +2,9 @@
     background-color: whitesmoke;
     color:black;
     text-align: left;
+    margin-left: 2%;
+    font-family:'Work Sans' 
+    ;font-size:22px;
 }
 
 section.contactform{
@@ -12,7 +15,10 @@ textarea {
         width: 600px;
         height: 150px;
         background-color: whitesmoke;
-        margin-right:30%;
+        /* margin-right:30%; */
+        width: 80%;
+        font-family:'Work Sans' 
+        ;font-size:22px;
 
 
     }
@@ -23,12 +29,5 @@ textarea {
     }
 
 .inputbox{
-    width: 100%;
-    margin-right:80%;
-    text-align:left;
-
-}
-#labels{
-
- margin-right:80%;
+    width: 80%;
 }

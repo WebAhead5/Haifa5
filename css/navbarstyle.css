@@ -18,7 +18,7 @@ ul.nav {
 
     box-sizing: border-box;
 
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
 
     /* background: none; */
 
@@ -50,16 +50,16 @@ li a:hover:not(.active){
 
 } 
 
-@media only screen and (min-width: 1150px){
+@media only screen and (min-width: 600px){
 
     ul.nav {
         top: 0;
-
+/* 1150 height before. */
     }
 
 }
 
-@media only screen and (max-width: 1150px){
+@media only screen and (max-width: 600px){
     ul.nav {
         bottom: 0;
 
