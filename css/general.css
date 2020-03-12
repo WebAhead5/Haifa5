@@ -27,6 +27,7 @@ p{
 
 .text-container {
     background-color: hsl(205, 8%, 89%);
+    margin-left: 20px;
 }
 
 h1 {
