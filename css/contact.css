@@ -3,8 +3,8 @@
     color:black;
     text-align: left;
     margin-left: 2%;
-    font-family:'Work Sans' 
-    ;font-size:22px;
+    font-family:'Work Sans' ;
+    font-size: 22px;
 }
 
 section.contactform{
@@ -14,7 +14,7 @@ textarea {
         resize:none;
         width: 600px;
         height: 150px;
-        background-color: whitesmoke;
+        background-color: white;
         /* margin-right:30%; */
         width: 80%;
         font-family:'Work Sans' 
@@ -29,5 +29,6 @@ textarea {
     }
 
 .inputbox{
-    width: 80%;
+    font-size: large;
+    height: 25px;
 }

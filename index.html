@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="css/navbarstyle.css">
     <link rel="stylesheet" href="css/team.css">
     <link rel="stylesheet" href="css/general.css">
-    <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/about.css">
 
@@ -66,16 +65,15 @@
 
 
     <section class="contactform">
-        <div class="contactform">
             <h2 id="contact">Drop us a message!</h2>
-            <form class="formstyle" >
+            <form class="formstyle" method="POST" action="mailto:morad890@gmail.com">
                 <label  id="labels" for="fname">Full Name:</label><br>
-                <input  id="labels"  type="text"  name="fname" class="inputbox"><br><br>
+                <input  id="labels"  type="text"  name="fname" class="inputbox" size="50" ><br><br>
                 <label id="labels"  for="email">Email:</label><br>
-                <input  id="labels" type="text"  name="email" class="inputbox"><br><br>
+                <input  id="labels" type="text"  name="email" class="inputbox" size="50"><br><br>
                     <label for="Msg">Message Us:</label><br>
-                    <textarea>Some text...</textarea>   
-                <br><input id="sub" type="submit" value="submit"><br><br>
+                    <textarea style="width: 520px;" placeholder="Some text..."></textarea>   
+                <br><input id="sub" type="submit" value="Send Email"><br><br>
             </form>
         </div>
     </section>
