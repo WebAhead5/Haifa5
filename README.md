@@ -18,3 +18,24 @@ II. Deciding what sections the website should contain.
 III. Creating the HTML page and declaring the sections.
 IV. Creating and inserting the content to the website
 V. CSS.
+
+---
+
+## :floppy_disk: How to install the project 
+
+1. `git clone git@github.com:FAC-Sixteen/week-3-agony-yaunt.git`
+2. cd into the directory
+3. run `npm i` to install node modules
+4. `npm test` can be run for the (minimal) tests
+5. open the local index.html file
+
+---
+---
+
+## :bulb: What we learned 
+![](https://media.giphy.com/media/3ohuAxV0DfcLTxVh6w/giphy.gif)
+- we learned how to steal readme files .
+- ![](https://i.imgur.com/iAk8Pw3.gif)
+<!-- - Joko is ALWAYS right. -->
+
+---
